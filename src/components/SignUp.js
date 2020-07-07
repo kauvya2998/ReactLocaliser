@@ -13,6 +13,7 @@ function SignUp(props) {
         phno:'',
         password:''
     }
+    //to be added to git
     const onSubmit = values => {
         console.log(values)
         localStorage.setItem(values.name,values.password)

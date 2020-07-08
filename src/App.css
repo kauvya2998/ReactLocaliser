@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #f0f5f1 ;
+  height:550px;
 }
 .nav{
   border:transparent;
@@ -43,15 +45,63 @@ p{
 form-control{
   margin-bottom: 5px;
 }
-
 .in{
   padding:10px;
   border:0;
   margin-bottom: 5px;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06)
 }
-.button{
-  position:absolute;
-  bottom: 5%;
-  right:20%;
+.locate{
+  padding:10px;
+  border:0;
+  border-radius: 0.5 0 0.5 0;
+  margin-top: 5px;
+  width: 350px;
+  margin-bottom: 5px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06)
+}
+.row{
+  content:'';
+}
+.column{
+  float: left;
+  width: 50%;
+  height: 353px;
+}
+.copyright{
+  position: absolute;
+  bottom:2%;
+  left:20%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.transferBG{
+  position: absolute;
+  top: 15%;
+  left:39%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
